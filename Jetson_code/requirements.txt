@@ -1,0 +1,26 @@
+appdirs==1.4.4
+Cython==3.0.12
+dataclasses==0.8
+decorator==5.1.1
+graphsurgeon==0.4.5
+importlib-metadata==4.8.3
+Jetson.GPIO==2.1.12
+Mako==1.1.6
+MarkupSafe==2.0.1
+netron==8.7.5
+numpy==1.19.5
+onnx==1.10.2
+pgi==0.0.11.2
+pkg_resources==0.0.0
+platformdirs==2.4.0
+protobuf==3.19.6
+pycairo==1.20.1
+pycuda==2020.1
+pyds @ file:///home/nvida/Downloads/pyds-1.1.1-py3-none-linux_aarch64.whl
+PyGObject==3.42.2
+pytools==2022.1.12
+six==1.17.0
+tensorrt==8.2.1.8
+typing_extensions==4.1.1
+uff==0.6.9
+zipp==3.6.0

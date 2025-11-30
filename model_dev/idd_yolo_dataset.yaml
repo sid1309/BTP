@@ -1,0 +1,28 @@
+# idd_yolo_dataset.yaml
+# Place this file in /home/admin/Documents/BTP/
+
+# --- Path to the root dataset directory ---
+# This directory should contain the 'images' and 'labels' folders
+path: /home/admin/Documents/BTP/dataset  # Use absolute path - VERIFY THIS
+
+# --- Paths to train/val/test image directories (relative to 'path') ---
+train: images/train
+val: images/val
+test: images/test  # Optional: Path to test images
+
+# --- NOTE ---
+# No need for train_txt, val_txt, test_txt as images are in separate folders.
+# No need for the 'labels:' key, YOLOv5 automatically finds labels
+# in ../labels/train, ../labels/val, etc., relative to the image folders.
+
+# --- Class Configuration (MUST MATCH YOUR CONVERSION SCRIPT) ---
+nc: 6 # Number of classes
+
+names: # Order MUST EXACTLY MATCH class_mapping IDs (0, 1, 2...)
+  0: car
+  1: autorickshaw
+  2: truck
+  3: motorcycle
+  4: bus
+  5: person
+

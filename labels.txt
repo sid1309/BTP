@@ -1,7 +1,0 @@
-car
-autorickshaw
-truck
-motorcycle
-bus
-person
-
